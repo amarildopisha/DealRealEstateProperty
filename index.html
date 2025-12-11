@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
   <head>
     <title>Deal Real Estate</title>
     <meta charset="utf-8">
@@ -40,13 +40,21 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item active"><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link" data-i18n="nav.about">About</a></li>
 	          <!-- <li class="nav-item"><a href="agent.html" class="nav-link">Agent</a></li> -->
 	          <!-- <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li> -->
 	          <!-- <li class="nav-item"><a href="properties.html" class="nav-link">Properties</a></li> -->
 	          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            <li class="nav-item dropdown ml-lg-3">
+              <a class="nav-link dropdown-toggle" href="#" id="langSwitcher" data-toggle="dropdown" aria-expanded="false" data-i18n="lang.current">Shqip</a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langSwitcher">
+                <a class="dropdown-item" href="#" data-lang="sq">Shqip</a>
+                <a class="dropdown-item" href="#" data-lang="en">English</a>
+                <a class="dropdown-item" href="#" data-lang="de">Deutsch</a>
+              </div>
+            </li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,11 +69,11 @@
             <div class="text w-100">
               <div class="row align-items-center">
                 <div class="col-lg-7 text-lg-left text-center mb-4 mb-lg-0">
-                  <span class="badge badge-light text-uppercase mb-3" style="letter-spacing:2px;">Premium Real Estate In Tirana</span>
-                  <h1 class="mb-4">Smart Choices. Better Living.</h1>
-                  <p class="lead">Discover curated apartments, penthouses, and commercial spaces with a dedicated agent guiding you from the first tour to the final signature.</p>
+                  <span class="badge badge-light text-uppercase mb-3" style="letter-spacing:2px;" data-i18n="hero.badge">Premium Real Estate In Tirana</span>
+                  <h1 class="mb-4" data-i18n="hero.title">Smart Choices. Better Living.</h1>
+                  <p class="lead" data-i18n="hero.lead">Discover curated apartments, penthouses, and commercial spaces with a dedicated agent guiding you from the first tour to the final signature.</p>
                   <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start mt-4">
-                    <a href="contact.html" class="btn btn-outline-light py-3 px-4">Book a Consultation</a>
+                    <a href="contact.html" class="btn btn-outline-light py-3 px-4" data-i18n="hero.cta">Book a Consultation</a>
                     <!-- <a href="contact.html" class="btn btn-outline-light py-3 px-4">Book a Consultation</a> -->
                   </div>
                 </div>
@@ -96,8 +104,8 @@
       <div class="container">
       	<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">Our Services</span>
-            <h2 class="mb-2">Professional Real Estate Services</h2>
+          	<span class="subheading" data-i18n="services.subheading">Our Services</span>
+            <h2 class="mb-2" data-i18n="services.heading">Professional Real Estate Services</h2>
           </div>
         </div>
         <div class="row d-flex">
@@ -107,8 +115,8 @@
                 <img src="/fonts/flaticon/icons/002-contract.png" alt="Property icon" style="width:80px; height:80px;">
               </div>
               <div class="media-body py-md-4">
-                <h3>Property Buying Assistance</h3>
-                <p>We help you find the right property in Tirana with expert guidance and transparent support throughout the process.</p>
+                <h3 data-i18n="services.buy.title">Property Buying Assistance</h3>
+                <p data-i18n="services.buy.desc">We help you find the right property in Tirana with expert guidance and transparent support throughout the process.</p>
               </div>
             </div>
           </div>
@@ -119,8 +127,8 @@
                 <img src="/fonts/flaticon/icons/001-handshake.png" alt="Property icon" style="width:80px; height:80px;">
               </div>
               <div class="media-body py-md-4">
-                <h3>Property Selling & Marketing</h3>
-                <p>Professional listing, promotion, and negotiation services to help you sell your property quickly and at the best price.</p>
+                <h3 data-i18n="services.sell.title">Property Selling & Marketing</h3>
+                <p data-i18n="services.sell.desc">Professional listing, promotion, and negotiation services to help you sell your property quickly and at the best price.</p>
               </div>
             </div>      
           </div>
@@ -130,8 +138,8 @@
                 <img src="/fonts/flaticon/icons/deal.png" alt="Property icon" style="width:80px; height:80px;">
               </div>
               <div class="media-body py-md-4">
-                <h3>Rental Services</h3>
-                <p>We connect tenants and landlords, offering a smooth and secure rental experience with verified property listings.</p>
+                <h3 data-i18n="services.rent.title">Rental Services</h3>
+                <p data-i18n="services.rent.desc">We connect tenants and landlords, offering a smooth and secure rental experience with verified property listings.</p>
               </div>
             </div>      
           </div>
@@ -141,8 +149,8 @@
                 <img src="/fonts/flaticon/icons/003-talk.png" alt="Property icon" style="width:80px; height:80px;">
               </div>
               <div class="media-body py-md-4">
-                <h3>Real Estate Consulting</h3>
-                <p>Receive expert advice on property values, market trends, and investment opportunities across Tirana.</p>
+                <h3 data-i18n="services.consult.title">Real Estate Consulting</h3>
+                <p data-i18n="services.consult.desc">Receive expert advice on property values, market trends, and investment opportunities across Tirana.</p>
               </div>
             </div>      
           </div>
@@ -224,8 +232,8 @@
       <div class="container">
         <div class="row justify-content-start mb-5">
           <div class="col-md-6 text-center heading-section heading-section-white ftco-animate">
-            <span class="subheading">Work flow</span>
-            <h2 class="mb-3">How it works</h2>
+            <span class="subheading" data-i18n="workflow.subheading">Work flow</span>
+            <h2 class="mb-3" data-i18n="workflow.heading">How it works</h2>
           </div>
         </div>
         <div class="row">
@@ -237,8 +245,8 @@
                 <div class="media block-6 services services-2">
                   <div class="media-body py-md-4 text-center">
                     <div class="icon mb-3 d-flex align-items-center justify-content-center"><span>01</span></div>
-                    <h3>Schedule a Consultation</h3>
-                    <p>Contact our team to discuss your goals, preferred location, and the type of property you want to buy or rent.</p>
+                    <h3 data-i18n="workflow.step1.title">Schedule a Consultation</h3>
+                    <p data-i18n="workflow.step1.desc">Contact our team to discuss your goals, preferred location, and the type of property you want to buy or rent.</p>
                   </div>
                 </div>
               </div>
@@ -248,8 +256,8 @@
                 <div class="media block-6 services services-2">
                   <div class="media-body py-md-4 text-center">
                     <div class="icon mb-3 d-flex align-items-center justify-content-center"><span>02</span></div>
-                    <h3>Meet Your Agent</h3>
-                    <p>Our professional real estate agents guide you through the best available options based on your needs.</p>
+                    <h3 data-i18n="workflow.step2.title">Meet Your Agent</h3>
+                    <p data-i18n="workflow.step2.desc">Our professional real estate agents guide you through the best available options based on your needs.</p>
                   </div>
                 </div>
               </div>
@@ -259,8 +267,8 @@
                 <div class="media block-6 services services-2">
                   <div class="media-body py-md-4 text-center">
                     <div class="icon mb-3 d-flex align-items-center justify-content-center"><span>03</span></div>
-                    <h3>Visit Properties</h3>
-                    <p>We arrange property viewings and help you evaluate each option to ensure it matches your expectations.</p>
+                    <h3 data-i18n="workflow.step3.title">Visit Properties</h3>
+                    <p data-i18n="workflow.step3.desc">We arrange property viewings and help you evaluate each option to ensure it matches your expectations.</p>
                   </div>
                 </div>
               </div>
@@ -270,8 +278,8 @@
                 <div class="media block-6 services services-2">
                   <div class="media-body py-md-4 text-center">
                     <div class="icon mb-3 d-flex align-items-center justify-content-center"><span>04</span></div>
-                    <h3>Close the Deal</h3>
-                    <p>Once you choose a property, we handle the negotiation, paperwork, and support you until the final handover.</p>
+                    <h3 data-i18n="workflow.step4.title">Close the Deal</h3>
+                    <p data-i18n="workflow.step4.desc">Once you choose a property, we handle the negotiation, paperwork, and support you until the final handover.</p>
                   </div>
                 </div>
               </div>
@@ -293,11 +301,11 @@
           </div>
           <div class="col-md-6 wrap-about py-md-5 ftco-animate">
             <div class="heading-section p-md-5">
-              <h2 class="mb-4">We Put People First.</h2>
+              <h2 class="mb-4" data-i18n="about.title">We Put People First.</h2>
     
-              <p>At Deal Real Estate, our mission is simple — to help people find the perfect place to call home. Whether you’re buying, selling, or renting, we provide a smooth, transparent, and personalized real estate experience in Tirana.</p>
+              <p data-i18n="about.p1">At Deal Real Estate, our mission is simple — to help people find the perfect place to call home. Whether you’re buying, selling, or renting, we provide a smooth, transparent, and personalized real estate experience in Tirana.</p>
     
-              <p>We believe that every client deserves honesty, dedication, and expert guidance. Our team takes the time to understand your needs, present the best options, and support you through every step of the process. With a deep knowledge of the local market and a passion for quality service, we make your property journey easier, faster, and more reliable.</p>
+              <p data-i18n="about.p2">We believe that every client deserves honesty, dedication, and expert guidance. Our team takes the time to understand your needs, present the best options, and support you through every step of the process. With a deep knowledge of the local market and a passion for quality service, we make your property journey easier, faster, and more reliable.</p>
             </div>
           </div>
         </div>
@@ -349,8 +357,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Testimonial</span>
-            <h2 class="mb-3">Happy Clients</h2>
+            <span class="subheading" data-i18n="testimonials.subheading">Testimonial</span>
+            <h2 class="mb-3" data-i18n="testimonials.heading">Happy Clients</h2>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -444,8 +452,8 @@
       <div class="container">
         <div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-            <span class="subheading">Agents</span>
-            <h2 class="mb-4">Our Agent</h2>
+            <span class="subheading" data-i18n="agents.subheading">Agents</span>
+            <h2 class="mb-4" data-i18n="agents.heading">Our Agent</h2>
           </div>
         </div>
     
@@ -554,7 +562,7 @@
                 <img src="images/gpt_logo_deal_real_estate.png" alt="Deal Real Estate Logo" style="height: 70px;">
                 <h2 class="ftco-heading-2 mb-0">Deal Real Estate</h2>
               </div>
-              <p class="mb-2">Guiding you at every step with transparent advice and boutique service.</p>
+              <p class="mb-2" data-i18n="footer.tagline">Guiding you at every step with transparent advice and boutique service.</p>
               <ul class="ftco-footer-social list-unstyled d-flex justify-content-center justify-content-md-start mt-3 mb-0">
                 <li class="ftco-animate mr-3"><a href="#" aria-label="Follow us on Twitter"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate mr-3"><a href="#" aria-label="Follow us on Facebook"><span class="icon-facebook"></span></a></li>
@@ -564,17 +572,17 @@
           </div>
           <div class="col-12 col-md-4 col-lg-3 mb-4 mb-md-0">
             <div class="ftco-footer-widget m-0 text-center text-md-left">
-              <h2 class="ftco-heading-2 mb-3">Quick Links</h2>
+              <h2 class="ftco-heading-2 mb-3" data-i18n="footer.quicklinks">Quick Links</h2>
               <ul class="list-unstyled mb-0 d-inline-flex flex-column align-items-center align-items-md-start">
-                <li><a href="#featured-properties"><span class="icon-long-arrow-right mr-2"></span>Featured Listings</a></li>
-                <li><a href="about.html"><span class="icon-long-arrow-right mr-2"></span>About Deal</a></li>
-                <li><a href="contact.html"><span class="icon-long-arrow-right mr-2"></span>Book a Visit</a></li>
+                <li><a href="#featured-properties"><span class="icon-long-arrow-right mr-2"></span><span data-i18n="footer.featured">Featured Listings</span></a></li>
+                <li><a href="about.html"><span class="icon-long-arrow-right mr-2"></span><span data-i18n="footer.about">About Deal</span></a></li>
+                <li><a href="contact.html"><span class="icon-long-arrow-right mr-2"></span><span data-i18n="footer.book">Book a Visit</span></a></li>
               </ul>
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4">
             <div class="ftco-footer-widget m-0 text-center text-md-left">
-            	<h2 class="ftco-heading-2 mb-3">Have a Question?</h2>
+            	<h2 class="ftco-heading-2 mb-3" data-i18n="footer.question">Have a Question?</h2>
             	<div class="block-23 mb-0">
 	              <ul class="mb-0 list-unstyled d-inline-flex flex-column align-items-center align-items-md-start">
 	                <li><span class="icon icon-map-marker"></span><span class="text">Boulevard Kashar, Tiranë 1001, Albania</span></li>
@@ -631,6 +639,7 @@
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
     
   </body>
